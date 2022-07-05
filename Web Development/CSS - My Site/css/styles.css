@@ -1,10 +1,21 @@
 /* ------------------Element Selectors------------------ */
 body {
     margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 h1 {
-    margin-top: 0px;
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* ------------------ID Selectors----------------------- */
@@ -13,6 +24,8 @@ h1 {
 
 .top-container {
     background-color: #C4DDFF;
+    position: relative;
+    padding-top: 100px;
 }
 .middle-container {
     background-color: red;
@@ -23,4 +36,20 @@ h1 {
     background-color: blue;
     width: 200px;
     height: 200px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.underline {
+    text-decoration: underline;
 }
