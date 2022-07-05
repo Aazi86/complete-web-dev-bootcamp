@@ -1,4 +1,4 @@
-.red {
+.relative-red {
     background-color: red;
     width: 100px;
     height: 100px;
@@ -7,22 +7,49 @@
     left: 200px;
   }
   
-  .blue {
+.relative-blue {
     background-color: blue;
     width: 100px;
     height: 100px;
     display: inline-block;
     position: relative;
     right: 100px;
-  }
+}
   
-  .yellow {
+.relative-yellow {
     background-color: yellow;
     width: 100px;
     height: 100px;
     display: inline-block;
     position: relative;
     right: 100px;
-  }
-  
-  
+}
+
+body {
+    margin: 0
+}
+
+.absolute-red {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.absolute-blue {
+      background-color: blue;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      left: 100px;
+      top: 100px;
+}
+
+.absolute-yellow {
+      background-color: yellow;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+}
