@@ -1,0 +1,22 @@
+/* ------------ Element selector ---------------- */
+/* h1 {
+
+} */
+
+
+/* ------------ Class selector ---------------- */
+/* .navbar {
+    font-family: 'Montserrat', sans-serif;
+} */
+
+.h1-title {
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* ------------ ID selector ---------------- */
+#title {
+    background-color: #ff4c68;
+}
